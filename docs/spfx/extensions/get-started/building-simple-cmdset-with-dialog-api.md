@@ -140,7 +140,7 @@ public onExecute(event: IListViewCommandSetExecuteEventParameters): void {
 
 ## Debug your ListView Command Set
 
-You cannot currently use the local Workbench to test SharePoint Framework Extensions. You'll need to test and develop them directly against a live SharePoint Online site. You don't have to deploy your customization to the app catalog to do this, which makes the debugging experience simple and efficient.
+You cannot currently use the local Workbench to test SharePoint Framework Extensions. You'll need to test and develop them directly against a live SharePoint Online site. You don't have to deploy  your customization to the app catalog to do this, which makes the debugging experience simple and efficient.
 
 1. Go to any SharePoint list in your SharePoint Online site by using the modern experience or create a new list. Copy the URL of the list to clipboard as we will be needing that in following step.
 
@@ -362,7 +362,7 @@ Open **package-solution.json** from the **config** folder. The **package-solutio
 }
 ```
 
-## Deploy the extension to SharePoint Online and host JavaScript from local host
+## Deploy the extension to SharePoint Online
 
 Now you are ready to deploy the solution to a SharePoint site and have the `CustomAction` automatically associated on the site level.
 
